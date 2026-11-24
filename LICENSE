@@ -1,0 +1,20 @@
+Atlas ferroviaire — https://atlas-ferroviaire.github.io/
+Copyright (c) 2026 Jules Bourgeois
+
+1. Code et conception graphique (index.html, preview.png)
+   Tous droits réservés. Ces éléments ne peuvent être copiés, modifiés ou redistribués,
+   en tout ou partie, sans l'autorisation écrite préalable de l'auteur.
+
+2. Données (data.json, lignes.json, territoires.json)
+   Ces fichiers sont des bases de données dérivées de données ouvertes. Ils sont mis à
+   disposition sous licence Open Database License (ODbL) v1.0 :
+   https://opendatacommons.org/licenses/odbl/1-0/
+   Toute réutilisation doit mentionner les sources ci-dessous et conserver la licence ODbL.
+
+   Sources :
+   - SNCF Open Data (SNCF Gares & Connexions, SNCF Réseau) — licence ODbL
+   - IGN, Admin Express — Licence Ouverte / Open Licence (Etalab)
+   - INSEE, estimations de population — Licence Ouverte / Open Licence (Etalab)
+
+3. Bibliothèque D3.js (d3.min.js)
+   Copyright 2010-2023 Mike Bostock, distribuée sous licence ISC.

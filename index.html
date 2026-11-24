@@ -842,7 +842,10 @@
     rows += h("Gares") + `<div class="row"><svg width="26" height="16"><g transform="translate(13,8)" class="legico"></g></svg>Gare TGV</div>`;
     const vmax = rScale.domain()[1];
     const zf = Math.pow(K, 0.22);
-    const steps = [vmax, vmax / 4, vmax / 20].map((v) => +d3.format(".2r")(v));
+    const NICE = [500, 1e3, 2e3, 5e3, 1e4, 2e4, 5e4, 1e5, 2e5, 4e5, 1e6, 2e6, 5e6, 1e7, 2e7, 5e7, 1e8, 2e8];
+    const snap = (v) => NICE.filter((n) => n <= v).pop() || NICE[0];
+    const top = snap(vmax * 1.05);
+    const steps = [.../* @__PURE__ */ new Set([top, snap(top / 2.5), snap(top / 10), snap(top / 50)])];
     const colW = Math.max(34, 2 * rScale(steps[0]) * zf + 4);
     rows += h("Fr\xE9quentation 2024") + steps.map((v) => {
       const r = rScale(v) * zf;

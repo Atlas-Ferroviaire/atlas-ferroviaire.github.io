@@ -4,6 +4,8 @@ Site interactif : **https://atlas-ferroviaire.github.io/**
 
 Atlas de la fréquentation des gares et du réseau ferré actuel, pour la France métropolitaine, ses 13 régions et ses 96 départements.
 
+Projet personnel, indépendant de SNCF. Il ne s'agit pas d'une publication officielle : les données utilisées sont celles publiées en open data par SNCF, l'IGN et l'INSEE.
+
 ## Contenu
 
 - **Carte interactive** du réseau : type de voie (LGV, électrifiée, non électrifiée), nombre de voies, statut des lignes, gares dimensionnées selon leur fréquentation et colorées selon leur évolution depuis 2019.

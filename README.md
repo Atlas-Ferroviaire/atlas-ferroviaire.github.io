@@ -31,7 +31,7 @@ Chaque territoire a son propre lien, par exemple :
 
 ## Confidentialité
 
-Le site ne dépose aucun cookie, ne contient aucun outil de mesure d'audience et ne fait appel à aucun service tiers : toutes les ressources (code, données, bibliothèque D3.js) sont servies depuis ce dépôt.
+Le site ne dépose aucun cookie, ne contient aucun outil de mesure d'audience et ne fait appel à aucun service tiers : toutes les ressources (code, données, police Inter, bibliothèque D3.js) sont servies depuis ce dépôt.
 
 ## Mises à jour
 
@@ -46,5 +46,6 @@ Analyse et conception : **Jules Bourgeois**
 - **Code et conception graphique** : © 2026 Jules Bourgeois, tous droits réservés.
 - **Données** (`data.json`, `lignes.json`, `territoires.json`) : bases dérivées de données ouvertes, diffusées sous licence **ODbL**, comme les données SNCF d'origine.
 - **D3.js** (`d3.min.js`) : licence ISC.
+- **Police Inter** (`fonts/`) : licence SIL Open Font License 1.1, voir `fonts/OFL.txt`.
 
 Détails dans [LICENSE](LICENSE).

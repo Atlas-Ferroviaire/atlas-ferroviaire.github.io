@@ -26,6 +26,9 @@ Chaque territoire a son propre lien, par exemple :
 
 - Le réseau pris en compte est le réseau **exploité** ; les lignes neutralisées et fermées sont affichées à part.
 - Les sections en **voie banalisée** sont comptées comme **voie unique**, conformément à la documentation SNCF Réseau ; seul le régime « Double voie » est compté comme double voie.
+- Les **LGV** comptent toujours comme **double voie**, y compris leurs tronçons notés « voie banalisée ».
+- Le contournement Nîmes - Montpellier (ligne 834000) est compté comme **LGV** sur toute sa longueur, alors que le fichier SNCF ne le classe ainsi que jusqu'à Nîmes Pont du Gard.
+- La fréquentation est celle publiée par la SNCF, sans correction (par exemple pour des gares en travaux).
 - Les longueurs sont calculées par département à partir des tracés SNCF Réseau.
 - La liste des gares TGV a fait l'objet de corrections ponctuelles.
 

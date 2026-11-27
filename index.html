@@ -1076,7 +1076,7 @@
   document.querySelector(".legend").addEventListener("toggle", () => scheduleLabels());
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => scheduleLabels());
   styleLines();
-  apply(parseHash(location.hash) || { type: "dep", code: "39" });
+  apply(parseHash(location.hash) || { type: "fr" });
 })();
 </script>
 </body>
